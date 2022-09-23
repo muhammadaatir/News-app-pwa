@@ -1,0 +1,86 @@
+.logo_div {
+    width: 20%;
+    height: 100%;
+    margin-left: 20%;
+}
+
+.logo_div > img {
+    height: inherit;
+}
+
+body {
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.add_div {
+    width: 60%;
+    height: 90%;
+}
+
+.add_div > img {
+    height: inherit;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.nav_tag {
+    width: 100%;
+    height: 100px;
+    box-shadow: inset 0 -1px 0 rgb(100 121 143 / 12%);
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);;
+    margin-bottom: 10%;
+}
+
+#main_div {
+    padding-top: 10%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.second_card {
+    width: 90%;
+}
+
+.third_card {
+    width: 100%;
+}
+
+.first_card  {
+    width: 95%;
+}
+
+#inner1 {
+    width: 90%;
+}
+
+.main1 {
+    display: flex;
+}
+
+#main2{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.card3 {
+    width: 100% !important;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .main1 {
+        display: block;
+    }
+    #inner1, .first_card, .second_card, .third_card {
+        width: 100%;
+    }
+    .add_div {
+        display: none;
+    }
+}
